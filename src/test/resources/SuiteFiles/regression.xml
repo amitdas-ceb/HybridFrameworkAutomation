@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression" parallel="methods" thread-count="3" verbose="1" >
+<listeners>
+    <listener class-name="com.testAutomation.helpers.ListenerImplementation"/>
+    <listener class-name="com.testAutomation.helpers.TestRetryAnalyzerListener"/>
+</listeners>
+    <test name="Regression" >
+        <classes>
+            <class name="LoginPageTests" />
+        </classes>
+    </test>
+</suite>
