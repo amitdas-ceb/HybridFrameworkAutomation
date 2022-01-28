@@ -1,3 +1,5 @@
+package UITests;
+
 import com.testAutomation.base.BaseTest;
 import com.testAutomation.pageObjects.HomePage;
 import org.testng.annotations.Test;
